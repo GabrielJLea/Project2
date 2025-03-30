@@ -1,6 +1,6 @@
 import matplotlib.pyplot as plt
 
-# Data: Year and GDP values
+
 years = [
     2023, 2022, 2021, 2020, 2019, 2018, 2017, 2016, 2015, 2014, 2013, 2012, 2011,
     2010, 2009, 2008, 2007, 2006, 2005, 2004, 2003, 2002, 2001, 2000, 1999, 1998,
@@ -23,19 +23,19 @@ gdp = [
     637058551724.138, 603639413793.103, 561940310344.828, 541988586206.897
 ]
 
-# Create a line graph
+
 plt.figure(figsize=(10, 6))
 plt.plot(years, gdp, marker='o', color='b', linestyle='-', linewidth=2, markersize=5)
 
-# Set title and labels
+
 plt.title('US GDP Over the Years (1960-2023)', fontsize=14)
 plt.xlabel('Year', fontsize=12)
 plt.ylabel('GDP (in trillions)', fontsize=12)
 
-# Rotate x-axis labels for better readability
+
 plt.xticks(rotation=45)
 
-# Show the plot
+
 plt.tight_layout()
 plt.show()
 plt.savefig('GDP.png')
