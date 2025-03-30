@@ -4,7 +4,7 @@
 
 ![Line Chart](GDP.png)
 
-This Line Chart shows the United States GDP from the years 1960 to 2023, it allows the reader to see how. The data used to make this graph can be found at this link: https://api.worldbank.org/v2/countries/USA/indicators/NY.GDP.MKTP.CD?per_page=5000&format=json
+This line chart illustrates the growth of the United States GDP from 1960 to 2023. It provides a visual representation of economic expansion, highlighting key periods of growth, as well as recessions and downturns such as COVID in 2020. The data used to make this graph can be found at this link: https://api.worldbank.org/v2/countries/USA/indicators/NY.GDP.MKTP.CD?per_page=5000&format=json
 
 ## Homicides in 5 countries
 
