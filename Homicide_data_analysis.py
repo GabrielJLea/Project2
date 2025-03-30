@@ -3,7 +3,7 @@ from collections import defaultdict
 
 homicide_data = defaultdict(lambda: defaultdict(list))
 
-with open('1.csv', mode='r', newline='', encoding='utf-8') as file:
+with open('Homicides.csv', mode='r', newline='', encoding='utf-8') as file:
     csv_reader = csv.reader(file)
     for row in csv_reader:
         if len(row) < 6:
