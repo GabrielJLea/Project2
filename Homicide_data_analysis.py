@@ -36,25 +36,4 @@ for year, regions in homicide_data.items():
 
 
 
-'''
-import json
 
-from collections import Counter
-
-file_path = 'Data.json'
-data = []
-with open(file_path, encoding='utf8') as fin:
-    data = json.load(fin) 
-
-
-if "countries" in data:
-    country_names = [country.get("name", "Unknown") for country in data["countries"]]
-    print(country_names)
-
-country_counter = Counter(country_names)
-
-top_five_countries = country_counter.most_common(1000)
-
-for country, count in top_five_countries:
-    print(f"{country}: {count} occurrences")
-'''
